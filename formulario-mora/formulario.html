@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>	
+    <title> Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario de inicio de sesion:</h1>
+     <form action="recibido.html" method="post" target="_top" >
+       <div>
+
+  <label>*Increse su Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+          
+          <br></br>
+  <label>*Ingrece su apellido</label>
+            <input type="text" name="apellido" placeholder="apellido" required>
+          
+          <br></br>
+
+      
+      <div>
+          <label>
+       
+            *Seleccione su tipo de documento:<br></br>
+            <select name="">
+              <option>cedula de ciudadania</option>
+              <option>targeta de indentidad</option>
+              <option>cedula extragera</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <br></br>
+
+ <label>*Numero de documento</label><br></br>
+            <input type="number" name="numero" placeholder="Numero" maxlength="11" required>
+          
+          <br></br>
+
+<label> *Ingrese su Fecha de Nacimiento:</label><br></br>
+            <input type="date">
+        <br></br>
+
+ <label>*Ingrese su Sexo</label><br></br>
+            <input type="radio" name="Sexo">Hombre
+            <input type="radio" name="Sexo">Mujer
+        
+        <br></br>
+
+
+          <label>*correo Eletronico</label><br>
+             <input type="email" name="email" placeholder="correo electronico"><br></br>
+
+    
+  <label>*Ingrese su Contraseña:</label><br>
+    <input type="password" name="clave" placeholder="contraseña" maxlength="10"       required=""><br></br>
+
+  <label>*confirmar Contraseña:</label><br>
+    <input type="password" name="clave" placeholder="contraseña" maxlength="10"       required=""><br></br>
+       
+ <input type="checkbox" name="Acepto termino y condiciones" value="Acepto termino y condiciones">Acepto termino y condiciones<br></br>
+
+ <input type="submit" value="Crear cuenta"><br></br>
+
+
+
+     </form>
+  </body>
+</html>
